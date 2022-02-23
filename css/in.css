@@ -59,3 +59,43 @@ nav ul:nth-child(2) li a {
 nav ul:nth-child(2) li a:hover {
     color: #D5D4D6;
 }
+main {
+    width: 100%;
+    padding: 0;
+}
+
+#intro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#about_me {
+    width: 70%;
+    align-self: center;
+    line-height: 30px;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#photo {
+    width: 30%;
+    height: auto;
+    align-self: center;
+    padding: 20px;
+}
+
+#services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services div {
+    width: 20%;
+    align-self: center;
+    margin: 10px;
+}
