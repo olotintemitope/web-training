@@ -15,31 +15,47 @@ header {
 
 nav {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
     height: auto;
+    align-items: center;
 }
 
-nav ul {
+nav ul:nth-child(1) {
+    padding: 0;
+    list-style: none;
+    height: inherit;
+    width: 20%;
+}
+
+nav ul:nth-child(1) li img {
+    width: 120px;
+    height: 80px;
+}
+
+nav ul:nth-child(2) {
     list-style: none;
     display: flex;
     padding: 0;
     justify-content: flex-end;
     align-items: center;
     height: inherit;
+    width: 80%;
 }
 
-nav ul li {
+nav ul:nth-child(2) li {
     align-self: center;
-    width: 5%;
+    width: 10%;
     padding: 10px;
     text-align: center;
 }
 
-nav ul li a {
+nav ul:nth-child(2) li a {
     text-decoration: none;
     color: #272525;
     font-size: 16px;
 }
 
-nav ul li a:hover {
+nav ul:nth-child(2) li a:hover {
     color: #D5D4D6;
 }
