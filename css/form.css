@@ -1,0 +1,41 @@
+form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form input:not(input[type='checkbox']), form select {
+    height: 30px;
+    align-self: self-start;
+    width: 50%;
+    margin: 0 0 10px 0;
+}
+
+form button {
+    width: 200px;
+    background: #272525;
+    color: white;
+    padding: 20px;
+    border: 1px solid;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0e0d0d;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #137fde;
+    box-shadow: 0 0 5px #3e72f1;
+}
+
+form input:not(input[type='checkbox']) {
+    padding: 0 0 0 10px;
+}
