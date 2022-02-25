@@ -39,3 +39,8 @@ input:focus {
 form input:not(input[type='checkbox']) {
     padding: 0 0 0 10px;
 }
+label {
+    font-family: "Roboto Medium", serif;
+    font-size: 14px;
+    font-weight: 200;
+}
